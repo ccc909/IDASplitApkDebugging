@@ -4,8 +4,6 @@ If there are any problems or features that you think would be helpful please ope
 
 If crashing, please try disabling analysis before rebasing.
 
-I will add a remember feature to the last used apks path ASAP.
-
 1. Ensure you have a rooted phone.
 2. Download platform-tools from https://developer.android.com/tools/releases/platform-tools and preferably add them to your path.
 3. Locate the IDA android_server (armv8, 64bit) / android_server32 (armv7, 32bit) packaged with IDA in the `.../IDAPRO/dbgsrv` directory.
