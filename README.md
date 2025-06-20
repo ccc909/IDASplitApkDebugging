@@ -55,9 +55,10 @@ IDA cannot find the actual names of modules and just uses the name of the parent
 Manually identifying the segment we need to rebase to was time consuming, so I created a script that can be downloaded from this repository.
 
 To install it:
-1. Copy the downloaded `segment_names.py` file to the `.../IDAPRO/plugins` folder
-2. Start a debugging session
-3. Run the script from **Edit->Plugins->Segment renamer with Rebasing**
+1. <b>Install pyelftools</b> by running `pip install pyelftools`.
+2. Copy the downloaded `segment_names.py` file to the `.../IDAPRO/plugins` folder
+3. Start a debugging session
+4. Run the script from **Edit->Plugins->Segment renamer with Rebasing**
 
 You will be prompted to select the split_apk file from your computer, select it and wait for processing to be done.
 
