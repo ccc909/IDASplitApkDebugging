@@ -52,13 +52,14 @@ Performing a search with the name of the split apk we obtain a number of results
 
 IDA cannot find the actual names of modules and just uses the name of the parent split apk, leading to manual rebasing needing to be done in order for debugging to actually work.
 
-Manually identifying the segment we need to rebase to was time consuming, so I created a script that can be downloaded from this repository.
+Manually identifying the segment to rebase to is time consuming and leads to lost time when crashes inevitably occur, so I created a script that automates this process.
 
 To install it:
-1. <b>Install pyelftools</b> by running `pip install pyelftools`.
-2. Copy the downloaded `segment_names.py` file to the `.../IDAPRO/plugins` folder
-3. Start a debugging session
-4. Run the script from **Edit->Plugins->Segment renamer with Rebasing**
+1. <b>Install pyelftools</b> by running `pip install pyelftools`
+2. Clone this repo `git clone https://github.com/ccc909/IDASplitApkDebugging.git`
+3. Copy the downloaded `segment_names.py` file to the `.../IDAPRO/plugins` folder
+4. Start a debugging session
+5. Run the script from **Edit->Plugins->Segment renamer with Rebasing**
 
 You will be prompted to select the split_apk file from your computer, select it and wait for processing to be done.
 
