@@ -1,5 +1,3 @@
-## This will be a short guide on how to debug native (.so) libraries from split_apks using IDA
-
 If there are any problems or features that you think would be helpful please open as issue.
 
 If crashing, please try disabling analysis before rebasing.
